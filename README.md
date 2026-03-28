@@ -9,8 +9,10 @@ npm install -D tailwindcss@3.4.1 postcss autoprefixer
 npx tailwindcss init -p
 
 # Initialize git
-
 git init
+
+git config --global user.name "username"
+git config --global user.email "your-email@example.com"
 
 # Add all files
 
@@ -31,3 +33,8 @@ git branch -M main
 # Push to GitHub
 
 git push -u origin main
+
+thereafter:
+git add .
+git commit -m "Added ice cream UI and fixed styling"
+git push
