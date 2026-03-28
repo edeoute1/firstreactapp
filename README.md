@@ -12,6 +12,7 @@ npx tailwindcss init -p
 git init
 
 git config --global user.name "username"
+
 git config --global user.email "your-email@example.com"
 
 # Add all files
